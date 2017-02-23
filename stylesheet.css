@@ -1,3 +1,23 @@
+html{
+  display: block;
+  text-align: center;
+  -webkit-appearance: none;
+  height: 100%;
+  margin: 0;
+}
+
+body{
+  height: 100%;
+  margin: 0;
+}
+
+.navbar{
+  position: absolute;
+  width: 100%;
+  right: 30px;
+  height: 30px;
+}
+
 ul {
     list-style-type: none;
     margin: 0;
@@ -21,10 +41,26 @@ li a:hover{
   text-decoration: underline;
 }
 
-html{
-  display: block;
-  text-align: center;
-  -webkit-appearance: none;
+#signin{
+  background-color: #4285f4;
+  font-weight: bold;
+  border: 1px solid #4285f4;
+  color: #fff;
+  padding: 0px 12px;
+  line-height: 28px;
+}
+
+#signin:hover{
+  text-decoration: none;
+}
+
+img{
+  padding-top: 109px;
+  margin: auto;
+  height:92px;
+  width:272px;
+  display: inline-block;
+  margin-top: 89px;
 }
 
 .buttons{
@@ -34,13 +70,6 @@ html{
 
 #input{
   padding-top: 18px;
-}
-
-.navbar{
-  position: absolute;
-  width: 100%;
-  right: 30px;
-  height: 30px;
 }
 
 #google-search{
@@ -86,32 +115,51 @@ html{
   z-index: 6;
 }
 
-img{
-  padding-top: 109px;
-  margin: auto;
-  height:92px;
-  width:272px;
-  display: inline-block;
-  margin-top: 89px;
-}
-
-#signin{
-  background-color: #4285f4;
-  font-weight: bold;
-  border: 1px solid #4285f4;
-  color: #fff;
-  padding: 0px 12px;
-  line-height: 28px;
-}
-
-#signin:hover{
-  text-decoration: none;
-}
-
 #google-search:hover, #feeling-lucky:hover{
   color: #222;
   border-radius: 2px;
   background-color: #f8f8f8;
   border: 1px solid #c6c6c6;
   box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+}
+
+#footer{
+  position: absolute;
+  display: block;
+  bottom: 0px;
+  height: 50px;
+  right: 0px;
+  background: #f2f2f2;
+  border-top: 1px solid #e4e4e4;
+  line-height: 40px;
+  min-width: 980px;
+  width: 100%;
+}
+
+#fleft{
+  float: left;
+  margin-left: 30px;
+  text-align: left;
+  margin-left: 3px;
+  display: inline-block;
+}
+
+#fright{
+  float: right;
+  margin-right: 30px;
+  text-align: right;
+  display: inline-block;
+}
+
+
+#footer span a {
+	padding-left: 27px;
+	margin: 0 !important;
+	text-decoration: none;
+	color: #222;
+	opacity: .75;
+}
+
+#footer span a:hover{
+  text-decoration: underline;
 }
