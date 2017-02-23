@@ -11,6 +11,17 @@ body{
   margin: 0;
 }
 
+#body{
+  min-height: 100%;
+  padding-bottom: 50px;
+  clear: both;
+}
+
+#container{
+  min-height: 100%;
+  position: relative;
+}
+
 .navbar{
   position: absolute;
   width: 100%;
